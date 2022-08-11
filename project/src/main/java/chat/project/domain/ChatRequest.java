@@ -6,4 +6,8 @@ import lombok.Data;
 public class ChatRequest {
 
     private String sessionId;
+
+    public ChatRequest(String sessionID) {
+        this.sessionId = sessionID;
+    }
 }
